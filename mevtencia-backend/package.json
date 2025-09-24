@@ -1,0 +1,32 @@
+{
+  "name": "mevtencia-backend",
+  "version": "1.0.0",
+  "description": "Backend for Mevtencia Attendance Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "attendance",
+    "management",
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "Mevrick Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
